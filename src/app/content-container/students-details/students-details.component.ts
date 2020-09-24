@@ -35,7 +35,7 @@ export class StudentsDetailsComponent implements OnInit {
         this.student.patchValue(this.actualStudent);
       });
     });
-   
+
     this.formChangesSubscription =this.student.valueChanges.subscribe(val => {
       this.isModified = this.actualStudent.name.trim()!=val.name.trim() || this.actualStudent.active!=val.active;
     });
