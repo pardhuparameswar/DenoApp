@@ -1,0 +1,14 @@
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+    width: calc(100vw - 350px);
+    border-top: 1px solid grey;
+}
+
+p{
+    font-size: .9em;
+    margin-bottom: 0;
+}

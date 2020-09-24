@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #DCC7AA;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #636161;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #3f4872;
+}
+
+select-student{
+    align-self: center;
+}
+
+students-details{
+    width: 100%;
+}
+
+.left-margin-10{
+    margin-left: 10px; 
+}

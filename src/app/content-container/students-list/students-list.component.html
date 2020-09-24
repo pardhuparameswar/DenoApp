@@ -1,0 +1,13 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3>Enrolled Students</h3>
+    </div>
+
+    <ul class="list-unstyled components">
+        <li class="{{selectedStud?.id==student.id?'active':''}}" *ngFor="let student of students; let i=index" [routerLink]="['/enrolled', student.id]" (click)="onSelect(student)"> 
+            <a class="{{student.active?'active':''}}" class="glyphicon glyphicon-chevron-left">
+                {{student.name}} <i class="fa fa-chevron-right"></i>
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,10 @@
+form{
+    max-width: 600px;
+    top: 15px;
+    position: relative;
+}
+[readonly]{
+    background-color: #d3d3d385;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+}
